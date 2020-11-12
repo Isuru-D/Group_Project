@@ -1,0 +1,84 @@
+.header {
+	padding: 5px;
+	
+  }
+  .header h1 {
+	background-color: white;
+	font-size: 24px;
+	text-align: center;
+   }
+  .container {
+	width: 100%;
+	height: 100%;
+  }
+
+  .cat1, .cat2, .cat3 {
+	float: left; 
+	padding: 30px;
+	min-height: 170px;
+	box-sizing: border-box;
+	width: 30%;
+	height: 60%;
+	text-align: center;
+	margin-left:35px;
+	margin-top:30px;
+	margin-bottom:30px;
+	opacity:0.8;
+	background-color: white;
+	overflow: hidden;
+  }
+  .cat1 img:hover {            
+	transform: scale(1.1);
+  }
+  .cat2 img:hover {            
+	transform: scale(1.1);
+  }
+  .cat3 img:hover {            
+	transform: scale(1.1);
+  }
+  .clearfix:after {
+	content: ".";
+	display: block;
+	height: 10px;
+	clear: both;
+	visibility:hidden;
+  }
+  .logo{
+	height: 18%;
+	width: 33%;
+	float: left;
+	background-color:white;
+	text-align: center;
+	opacity: 0.8;
+	margin-bottom: 5px;
+  }
+  .footer {
+	background: white;            
+	text-align: center;
+	height: 18%;
+	width: 66%;
+	float: left;
+	overflow:hidden;
+	background-color: white;
+	z-index:-1;
+	opacity: 0.8;
+	padding-right:5px;
+	margin-bottom: 5px;
+  }
+  .footer img{
+	padding-left:50px;
+	transition:0.5s;
+	transition-property:all;
+	z-index:1;
+	margin-right: 50;
+	float:center;
+	margin-bottom: 5px;
+  }
+  .footer img:hover{
+	transform:scale(1.1);
+	z-index:1;
+	opacity:100%
+  }
+  .footer h3{
+	text-align: center;
+  }
