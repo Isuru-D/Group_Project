@@ -1,0 +1,259 @@
+
+  input[type=button] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: #45a049;
+}
+
+.button{
+    margin-right: 150px;
+    margin-bottom: 0px;
+}
+
+  .left {
+    height: 50%;
+    width: 60%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    float: left;
+    background-color: black;
+    opacity: 0.8;
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }
+  
+  .right {
+    height: 50%;
+    width: 40%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    float: right;
+    background-color: black;
+    opacity: 0.8;
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .left1 {
+    height: 50%;
+    width: 50%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    float: left;
+    background-color: black;
+    opacity: 0.8;
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }
+  
+  .right1 {
+    height: 50%;
+    width: 50%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    float: right;
+    background-color:black;
+    opacity: 0.8;
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }
+
+input[type=text], select, textarea {
+    width: 20%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    float: left;
+    margin-left: 70px;
+  }
+
+  input[type=image]{
+    width: 20%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    float: left;
+    margin-left: 70px;
+    padding: 5px;
+  }
+
+  input[type=file]{
+    color: white;
+    width: 20%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    float: left;
+    margin-left: 70px;
+    padding: 5px;
+  }
+  
+  label {
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    display: inline-block;
+    float: left;
+    margin-left: 40px;
+  }
+    
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .form {
+    padding: 6px;
+    text-align: right;
+  }
+  
+
+  
+  .col-30 {
+      float: right;
+      width: 75%;
+      margin-top: 6px;
+      
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+   
+  }
+  
+  .col-75 {
+    float: left;
+    width: 150%;
+    margin-top: 3px;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    table-layout: fixed;
+    width: 100%;  
+   
+  }
+  
+  th {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+
+  .table-scroll {
+  position: relative;
+  max-width: 1280px;
+  width:100%;
+  margin: auto;
+    display:table;
+    padding: 5px;
+  }
+  .table-wrap {
+  width: 100%;
+  display:block;
+  height: 250px;
+  overflow: auto;
+  position:relative;
+    z-index:1;
+   
+  }
+  .table-scroll table {
+  width: 100%;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  }
+  .table-scroll th, .table-scroll td {
+  padding: 5px 10px;
+  border: 1px solid #000;
+  background: #fff;
+  vertical-align: top;
+  }
+  .faux-table table {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+    pointer-events: none;
+    
+  }
+  .faux-table table + table {
+  top: auto;
+  bottom: 0;
+  }
+  .faux-table table tbody, .faux-table  tfoot {
+  visibility: hidden;
+  border-color: transparent;
+  }
+  .faux-table table + table thead {
+  visibility: hidden;
+  border-color: transparent;
+  }
+  .faux-table table + table  tfoot{
+  visibility:visible;
+  border-color:#000;
+  }
+  .faux-table thead th, .faux-table tfoot th, .faux-table tfoot td {
+  background: #ccc;
+  }
+  .faux-table {
+  position:relative;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+    overflow-y:scroll;
+    
+  }
+  .faux-table thead, .faux-table tfoot, .faux-table thead th, .faux-table tfoot th, .faux-table tfoot td {
+  position:relative;
+  z-index:2;
+  }
+  
