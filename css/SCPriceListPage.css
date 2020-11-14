@@ -65,8 +65,8 @@ td{
 }
 
 .tab button{
-    padding: 14px 16px;
-    min-width: 150px;
+    padding: 8px 10px;
+    min-width: 100px;
     font-weight: bold;
     font-size: large;
     background-color: rgb(0,191,255);
