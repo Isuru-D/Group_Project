@@ -17,31 +17,31 @@ if (isset($_POST['login'])) {
 
  	if ($result->num_rows > 0 && $data['u_type']=="dealer") {
 		 $_SESSION['loggedin'] = 1;
-		 header("location:Dealer_home.php");
+		 header("location:Dealer/Dealer_home.php");
 	}
     if ($result->num_rows > 0 && $data['u_type']=="admin") {
 		$_SESSION['loggedin'] = 2;
-		header("location:Admin_home.php");
+		header("location:Admin/Admin_home.php");
   }
   if ($result->num_rows > 0 && $data['u_type']=="accountant") {
 		$_SESSION['loggedin'] = 3;
-		header("location:Acc_home.php");
+		header("location:Acc/Acc_home.php");
   }
   if ($result->num_rows > 0 && $data['u_type']=="op_manager") {
 		$_SESSION['loggedin'] = 4;
-		header("location:OM_home.php");
+		header("location:OM/OM_home.php");
   }
   if ($result->num_rows > 0 && $data['u_type']=="sales_executive") {
 		$_SESSION['loggedin'] = 5;
-		header("location:SE_home.php");
+		header("location:SE/SE_home.php");
 	}
   if ($result->num_rows > 0 && $data['u_type']=="hom") {
 		$_SESSION['loggedin'] = 6;
-		header("location:HOM_home.php");
+		header("location:HOM/HOM_home.php");
   }		
   if ($result->num_rows > 0 && $data['u_type']=="sales_co") {
 		$_SESSION['loggedin'] = 7;
-		header("location:SC_home.php");
+		header("location:SE/SC_home.php");
 	}
 	//else{
 		//echo '<script>alert("Good job!", "You clicked the button!", "success");</script>';
