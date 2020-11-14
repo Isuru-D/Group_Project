@@ -1,5 +1,5 @@
 <head>
-<title>OM report generation</title>
+<title>ACCOUNTANT report generation</title>
 <link rel="stylesheet" type="text/css" href="./css/nav1.css">
 <link rel="stylesheet" type="text/css" href="./css/div3.css">
 <link rel="stylesheet" type="text/css" href="./css/report2.css">
@@ -24,10 +24,9 @@
 		<div class="navbar">
 			
 					<a href="#"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
-  					<a href="OM_ApprovedOrders.php"><i class="fa fa-check-square" aria-hidden="true"></i>Approved Orders</a>
-					<a href="OM_Stock.php"><i class="fa fa-houzz" aria-hidden="true"></i>Stock</a>
-					<a href="OM_SparePartStock.php"><i class="fa fa-cog" aria-hidden="true"></i>Spare Part Stock</a>  
-					<a href="OM_ReportGeneration.php"><i class="fa fa-file" aria-hidden="true"></i>Reports</a>   
+  					<a href="OM_ApprovedOrders.php"><i class="fa fa-history" aria-hidden="true"></i>Payment History</a>
+                      <a href="OM_ReportGeneration.php"><i class="fa fa-file" aria-hidden="true"></i>Reports</a>
+					<a href="OM_Stock.php"><i class="fa fa-money" aria-hidden="true">SE_Payments</i></a> 
 					<a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>Logout</a>
 		</div>
 		
@@ -39,7 +38,7 @@
       
         <div class="wrapper clearfix">
             <div class="dropdown1">
-    					<button class="dropbtn1"><i class="fa fa-sort" aria-hidden="true"></i>	Stock Issue Report
+    					<button class="dropbtn1"><i class="fa fa-sort" aria-hidden="true"></i>	Sales Report
       					</button>
     					<div class="dropdown1-content1">
       						<a href="#">Monthly</a>
@@ -48,7 +47,7 @@
               </div> 
 
               <div class="dropdown2">
-    					<button class="dropbtn2"><i class="fa fa-sort" aria-hidden="true"></i>	Spare Part Stock Issue Report
+    					<button class="dropbtn2"><i class="fa fa-sort" aria-hidden="true"></i>	Repair Cost Report
       					</button>
     					<div class="dropdown2-content2">
       						<a href="#">Monthly</a>
@@ -77,10 +76,10 @@
     				<table class="main-table">
      					<thead>
         					<tr>
-								<th> Part_no </th>
-								<th> Name </th>
-								<th> Unit Price </th>
-								<th> Quantity </th>
+								<th> Invoice_no </th>
+								<th> Items </th>
+								<th> Amount </th>
+								<th> Date </th>
 								</tr>
 							</thead>
 							<tbody>

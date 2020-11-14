@@ -1,5 +1,5 @@
 <head>
-<title>OM report generation</title>
+<title>ADMIN report generation</title>
 <link rel="stylesheet" type="text/css" href="./css/nav1.css">
 <link rel="stylesheet" type="text/css" href="./css/div3.css">
 <link rel="stylesheet" type="text/css" href="./css/report2.css">
@@ -24,10 +24,16 @@
 		<div class="navbar">
 			
 					<a href="#"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
-  					<a href="OM_ApprovedOrders.php"><i class="fa fa-check-square" aria-hidden="true"></i>Approved Orders</a>
-					<a href="OM_Stock.php"><i class="fa fa-houzz" aria-hidden="true"></i>Stock</a>
-					<a href="OM_SparePartStock.php"><i class="fa fa-cog" aria-hidden="true"></i>Spare Part Stock</a>  
-					<a href="OM_ReportGeneration.php"><i class="fa fa-file" aria-hidden="true"></i>Reports</a>   
+                      <div class="dropdown">
+                      <button class="dropbtn"><i class="fa fa-address-book" aria-hidden="true"></i>Manage Users
+                      </button>
+                        <div class="dropdown-content">
+                            <a href="Admin_ManageDealers.php">Manage Dealers</a>
+                            <a href="Admin_ManageEmployees">Manage Employees</a>
+                        </div>
+                        </div>
+					<a href="Admin_PendingDealers"><i class="fa fa-user" aria-hidden="true"></i>Pending Dealers</a>
+					<a href="Admin_ReportGeneration.php"><i class="fa fa-file" aria-hidden="true"></i>Reports</a>   
 					<a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>Logout</a>
 		</div>
 		
@@ -39,7 +45,7 @@
       
         <div class="wrapper clearfix">
             <div class="dropdown1">
-    					<button class="dropbtn1"><i class="fa fa-sort" aria-hidden="true"></i>	Stock Issue Report
+    					<button class="dropbtn1"><i class="fa fa-sort" aria-hidden="true"></i>	Sales Report
       					</button>
     					<div class="dropdown1-content1">
       						<a href="#">Monthly</a>
@@ -48,7 +54,7 @@
               </div> 
 
               <div class="dropdown2">
-    					<button class="dropbtn2"><i class="fa fa-sort" aria-hidden="true"></i>	Spare Part Stock Issue Report
+    					<button class="dropbtn2"><i class="fa fa-sort" aria-hidden="true"></i>	Repair Report
       					</button>
     					<div class="dropdown2-content2">
       						<a href="#">Monthly</a>
@@ -77,10 +83,11 @@
     				<table class="main-table">
      					<thead>
         					<tr>
-								<th> Part_no </th>
-								<th> Name </th>
-								<th> Unit Price </th>
+								<th> Order_no </th>
+								<th> Dealer Name </th>
+								<th> Items </th>
 								<th> Quantity </th>
+                                <th> Amount </th>
 								</tr>
 							</thead>
 							<tbody>
@@ -89,78 +96,91 @@
 									<td> xxx </td>
 									<td> xxx </td>
 									<td> xxx </td>
+                                    <td> xxx </td>
 								</tr>
 								<tr>
 									<td> 2 </td>
 									<td> xxx </td>	
 									<td> xxx </td>
 									<td> xxx </td>
+                                    <td> xxx </td>
 								</tr>
 								<tr>
 									<td> 3 </td>
 									<td> xxx </td>	
 									<td> xxx </td>
 									<td> xxx </td>
+                                    <td> xxx </td>
 								</tr>
 								<tr>
 									<td> 4 </td>
 									<td> xxx </td>
 									<td> xxx </td>
 									<td> xxx </td>
+                                    <td> xxx </td>
 								</tr>
 								<tr>
 									<td> 5 </td>
 									<td> xxx </td>	
 									<td> xxx </td>
 									<td> xxx </td>
+                                    <td> xxx </td>
 								</tr>
 								<tr>
 									<td> 6 </td>
 									<td> xxx </td>	
 									<td> xxx </td>
 									<td> xxx </td>
+                                    <td> xxx </td>
 								</tr>
 								<tr>
 									<td> 7 </td>
 									<td> xxx </td>
 									<td> xxx </td>
 									<td> xxx </td>
+                                    <td> xxx </td>
 								</tr>
 								<tr>
 									<td> 8 </td>
 									<td> xxx </td>
 									<td> xxx </td>
 									<td> xxx </td>
+                                    <td> xxx </td>
 								</tr>
 								<tr>
 									<td> 9 </td>
 									<td> xxx </td>
 									<td> xxx </td>
 									<td> xxx </td>
+                                    <td> xxx </td>
 								</tr>
 								<tr>
 									<td> 10 </td>
 									<td> xxx </td>
 									<td> xxx </td>
 									<td> xxx </td>
+                                    <td> xxx </td>
 								</tr>
 								<tr>
 									<td> 11 </td>
 									<td> xxx </td>
 									<td> xxx </td>
 									<td> xxx </td>
+                                    <td> xxx </td>
 								</tr>
 								<tr>
 									<td> 12 </td>
 									<td> xxx </td>
 									<td> xxx </td>
 									<td> xxx </td>
+                                    <td> xxx </td>
 								</tr>
 							<tr>
 								<td> 13 </td>
 								<td> xxx </td>
 								<td> xxx </td>
 								<td> xxx </td>
+                                <td> xxx </td>
 							</tr>
 						</tbody>
 					</table>
