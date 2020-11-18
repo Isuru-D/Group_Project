@@ -2,7 +2,7 @@
 	<head>
         
 		<title>ACC_PaymentHistoryPage</title>
-		<link rel="stylesheet" type="text/css" href="../css/nav1.css">
+		<link rel="stylesheet" type="text/css" href="../css/navh.css">
         <link rel="stylesheet" type="text/css" href="../css/dealerCategoryPage.css">
         <link rel="stylesheet" type="text/css" href="../css/ACCPaymentHistoryPage.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
