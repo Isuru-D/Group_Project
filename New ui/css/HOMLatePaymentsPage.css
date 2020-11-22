@@ -1,0 +1,38 @@
+.clearfix{
+    height: 62%;
+    
+}
+
+.content h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+table{
+    width: 100%;
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    position: sticky;
+    top: 0;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    background-color: rgb(176,224,230);  
+}
+
+td{
+    padding: 15px;
+}
+
+tr{
+    background-color: white;
+}
+
+tr:hover{
+    background-color: rgb(220,220,220);
+}
