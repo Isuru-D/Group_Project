@@ -5,10 +5,10 @@
         }
 
         public function loadModel($name){ 
-            $path = 'models/'.$name.'_model.php';
+            $path = 'website/model/'.$name.'_Model.php';
 
             if(file_exists($path)){
-                require 'models/'.$name.'_model.php';
+                require 'website/model/'.$name.'_Model.php';  
                 $modelName = $name.'_Model';
                 $this->model = new $modelName();
             }
