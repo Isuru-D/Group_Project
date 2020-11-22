@@ -10,10 +10,7 @@
                 return false;
             }
             $this->_loadExistingController();
-
-            if(count($this->_url)>1){
-                $this->_callControllerMethod();
-            }    
+            $this->_callControllerMethod(); 
         }
 
         private function _getUrl(){
@@ -24,7 +21,7 @@
         }
 
         private function _loadDefaultController(){
-            require 'website/controller/HomeController.php';
+            require 'website/controller/Home.php';
             $this->_controller = new HomeController();
             $this->_controller->index();
         }
@@ -34,7 +31,6 @@
             if(file_exists($file)){
                 require $file;
                 $this->_controller = new $this->_url[0];
-                $this->_controller->index();
                 $this->_controller->loadModel($this->_url[0]);
             } else{
                 echo 'Opzz! Requested page does not exist.';
@@ -43,10 +39,14 @@
         }
 
         private function _callControllerMethod(){
-            if(!method_exists($this->_controller, $this->_url[1])){
-                //echo 'Opzz! Requested method does not exist.';
-                return false;
-            }else{
+            $length = count($this->_url);
+
+            if($length>1){
+                if(!method_exists($this->_controller, $this->_url[1])){
+                    //echo 'Opzz! Requested method does not exist.';
+                    return false;
+                }
+
                 switch ($length){
                     case 5:
                         $this->_controller->{$this->_url[1]}($this->_url[2],$this->_url[3],$this->_url[4]);
@@ -61,7 +61,10 @@
                         $this->_controller->{$this->_url[1]}();
                         break;
                 }
-            }   
+            }
+            // else{
+            //     $this->_controller->index();
+            // }
         }
     }
 ?>
