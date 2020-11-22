@@ -1,0 +1,90 @@
+
+input[type=text], select, textarea {
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .content label {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=button] {
+      background-color: #24a0ed;
+      color: rgb(255, 251, 251);
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+  
+  input[type=button]:hover {
+      background-color: rgb(0,0,128);
+  }
+  
+  input[type=submit] {
+    background-color: #24a0ed;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-right: 400px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(0,0,128);
+  }
+  
+  .form {
+    text-align: left;
+    padding: 25px;
+  }
+  
+  .col-15 {
+      float: left;
+      margin-top: 6px;
+      margin-left: 35px;
+  }
+  
+  .col-30 {
+      float: left;
+      width: 20%;
+      margin-top: 6px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    margin-left: 150px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    margin-right: 50px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .lastbtn {
+    text-align: center;
+    width: 85%;
+    margin-top: 6px;
+    
+  }
+
+  
+  

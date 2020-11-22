@@ -1,0 +1,57 @@
+.logo{
+	height: 18%;
+	width: 32%;
+	float: left;
+	text-align: left;
+	text-indent: 20px;
+    opacity: 0.8;
+    font-family: 'Courier New', Courier, monospace;
+}
+.logo h2{
+    margin-top: 10px;
+    color: rgb(40, 124, 191);
+}
+.logo p{
+	font-size: 13px;
+	margin-top: 0px;
+}
+.footer {       
+	text-align: center;
+	height: 18%;
+	width: 67%;
+	float: left;
+	overflow:hidden;
+	z-index:-1;
+	opacity: 0.8;
+	box-shadow: wheat;
+}
+.footer h2{
+	margin-top: 20px;
+}
+.footer img{
+	padding-left:50px;
+	transition:0.5s;
+	transition-property:all;
+	z-index:1;
+	margin-right: 50;
+	float:center;
+	padding-right:5px;
+	margin-top: 40px;
+}
+.footer img:hover{
+	transform:scale(1.1);
+	z-index:1;
+	opacity:100%
+}
+.footer h3{
+	text-align: center;
+	color: black;
+}
+
+
+.hr{
+	border: 1px solid red;
+}
+.first, .mid{
+	margin-right: 150px;
+}
