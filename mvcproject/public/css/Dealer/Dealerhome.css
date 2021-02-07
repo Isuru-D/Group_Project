@@ -1,0 +1,74 @@
+.contentIn{
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content h1{
+    background-color: white;
+    text-align: center;
+}
+.card {
+    background-color: #19B3D3;
+    box-shadow: 0px 0px 10px 2px black;
+    max-width: 150px;
+    min-height: 350px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: arial;
+    position: relative;
+}
+
+.card:hover {            
+	transform: scale(1.1);
+}
+
+.cart button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover{
+    background-color: red;
+}
+
+input[type=number]{
+    background-color: black;
+    border-radius: 20px;
+ 	border: none;
+  	color: white;
+  	padding: 8px 16px;
+  	text-decoration: none;
+    width: 45px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.cart{
+    position: absolute;
+    bottom: 0px;
+    margin: 0 auto;
+    display: block; 
+}
+
+.card form{
+    margin: 0 auto;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 10px;
+	clear: both;
+	visibility:hidden;
+}

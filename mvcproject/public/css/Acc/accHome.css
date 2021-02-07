@@ -1,0 +1,36 @@
+
+.container:after {
+	content: ".";
+	display: block;
+	clear: both;
+}
+.op1, .op2, .op3 {
+	float: left; 
+	padding: 30px;
+	box-sizing: border-box;
+	width: 20%;
+	height: 300px;
+	text-align: center;
+	margin-left:10%;
+	margin-top:100px;
+	margin-bottom:2%;
+	background-image: linear-gradient(to right,#ead6ee , #a0f1ea);
+	overflow: hidden;
+	position: initial;
+	border-radius: 5%;
+}
+.op1 img:hover, .op2 img:hover, .op3 img:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+.imgcont1{
+	overflow: hidden;
+	margin-top: 15%;
+}
+.imgcont2{
+	overflow: hidden;
+	margin-top: 23%;
+}
+.footercontent{
+	margin-top: 1%;
+}

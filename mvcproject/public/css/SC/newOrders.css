@@ -1,0 +1,89 @@
+.clearfix{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.content h3{
+    text-align: center;
+    color: black;
+}
+
+table{
+    width: 100%; 
+    background: #fff;  
+    color: #222; 
+    box-shadow: 0 4px 15px -8px rgba(0, 0, 0, 0.4);
+    border-collapse: collapse;  
+    margin-bottom: 20px;
+}
+
+th{
+    position: sticky;
+    top: 90px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    background-color: rgba(25,179,211,1);  
+    text-align: left;
+    text-indent: 14px;
+}
+
+.align{
+    text-align: center;
+    text-indent: 0;
+}
+
+td{
+    padding: 15px;
+}
+
+tr{
+    border-bottom: 1px solid #eee;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover{
+    background-color: rgb(230,230,250);
+}
+
+.cross i{
+    float: right;
+}
+
+.cross i:hover{
+    background-color: red;
+}
+
+button{
+    background-color: #24a0ed;
+    min-width: 110px;
+    border-radius: 20px;
+ 	border: none;
+  	color: white;
+  	padding: 8px 15px;
+  	text-decoration: none;
+    cursor: pointer;
+    margin: 3px auto;
+    display: block;
+}
+
+button i{
+    float: left;
+}
+
+/* .option{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;  
+} */
+
+/* .btnfloat{
+    margin: 0 auto;
+    display: block;
+}  */
+
+button:hover{
+    background-color: rgb(0,0,128);
+}
