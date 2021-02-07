@@ -1,0 +1,125 @@
+.bar{
+    max-width: 100%;
+    height: 10%; /* no need now heights */
+    margin: 10px 10px;
+}
+
+.bar form{
+    display: flex;
+}
+
+.f1{
+    float: left;
+}
+
+.f1 button{
+    outline: none;
+    min-width: 100px;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.f2{
+    float: right;
+}
+
+.f2 input[type=text] {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    background: white;
+}
+
+.bar button {
+    width: 20%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+    background: black;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+.bar button:hover{
+    background-color: dimgray;
+}
+
+.contentIn{
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #19B3D3;
+    box-shadow: 0px 0px 10px 2px black;
+    max-width: 150px;
+    min-height: 350px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: arial;
+    position: relative;
+}
+
+.card:hover {            
+	transform: scale(1.1);
+}
+
+.cart button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover{
+    background-color: red;
+}
+
+input[type=number]{
+    background-color: black;
+    border-radius: 20px;
+ 	border: none;
+  	color: white;
+  	padding: 8px 16px;
+  	text-decoration: none;
+    width: 45px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.cart{
+    position: absolute;
+    bottom: 0px;
+    margin: 0 auto;
+    display: block; 
+}
+
+.card form{
+    margin: 0 auto;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 10px;
+	clear: both;
+	visibility:hidden;
+}
